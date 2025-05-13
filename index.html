@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClosetMind - What should I wear today?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #fdfdfd;
+            color: #333;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .date-temp {
+            margin: 10px 0;
+        }
+        .outfit {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .item {
+            margin: 20px 0;
+        }
+        .item img {
+            width: 200px;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ClosetMind - What should I wear today?</h1>
+        <div class="date-temp">
+            <p>Tuesday, May 13</p>
+            <p>25°C</p>
+        </div>
+        <div class="outfit">
+
+            <div class="item">
+                <img src="waistcoat_with_cut_out_back.jpg" alt="Waistcoat with Cut-Out Back">
+                <p>Waistcoat with Cut-Out Back</p>
+            </div>
+    
+            <div class="item">
+                <img src="balloon_midi_skirt_gri.jpg" alt="Balloon Midi Skirt">
+                <p>Balloon Midi Skirt</p>
+            </div>
+    
+            <div class="item">
+                <img src="animal_print_leather_flat_sandals.jpg" alt="Animal Print Leather Flat Sandals">
+                <p>Animal Print Leather Flat Sandals</p>
+            </div>
+    
+        </div>
+        <button onclick="location.reload()">Get Another Suggestion</button>
+    </div>
+</body>
+</html>
